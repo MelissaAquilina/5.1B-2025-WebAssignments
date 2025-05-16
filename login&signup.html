@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In & Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Top Navbar -->
+  <nav class="navbar navbar-expand-lg bg-gold">
+    <div class="container-fluid">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+      <a class="navbar-brand mx-auto" href="homepage.html">
+        <img src="Images/Logo 2.png" class="logo-img" alt="Logo" />
+      </a>
+
+      <a class="navbar-brand" href="login&signup.html">
+        <img src="Images/user-solid.svg" class="profile-img" alt="Profile" />
+      </a>
+    </div>
+  </nav>
+
+  <!-- Secondary Menu -->
+  <nav class="navbar navbar-expand-lg bg-purple">
+  <div class="container-fluid justify-content-center">
+    <div class="collapse navbar-collapse justify-content-center">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="subject.html">Subject</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="quizzes-tests.html">Quizzes & Tests</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="student-dashboard.html">Student Dashboard</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="study-group.html">Study Group</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="contact-support.html">Contact & Support</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="profile.html">Profile</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Main Login/Sign Content -->
+  <main class="flex-grow-1 d-flex align-items-center justify-content-center py-5">
+    <div class="container form-wrapper">
+      <div class="row form-container mx-auto">
+        <!-- Login -->
+        <div class="col-md-6 border-end px-4">
+          <h3 class="form-title" style="color: #460273;">Log In</h3>
+          <form>
+            <input type="email" class="form-control mb-3" placeholder="Email Address" />
+            <input type="password" class="form-control mb-2" placeholder="Password" />
+            <a href="#" class="text-decoration-none d-block mb-3">Forgot the password?</a>
+            <button class="btn btn-primary btn-pill w-100 mb-3">Submit</button>
+            <div class="or-divider text-center my-3"><hr class="flex-grow-1 me-2"><span>or</span><hr class="flex-grow-1 ms-2"></div>
+            <button class="btn btn-outline-light social-btn mb-2 w-100"><img src="https://www.svgrepo.com/show/475656/google-color.svg" width="20"> Continue with Google</button>
+            <button class="btn btn-outline-light social-btn w-100"><img src="Images/apple icon.png" width="20"> Continue with Apple</button>
+            <p class="form-footer mt-3" style="color: #D99C2B;">Don’t have an account? <a href="#">Register now</a></p>
+          </form>
+        </div>
+
+        <!-- Sign Up -->
+        <div class="col-md-6 px-4">
+          <h3 class="form-title" style="color: #460273;">Sign Up</h3>
+          <form>
+            <div class="row mb-3">
+              <div class="col"><input type="text" class="form-control" placeholder="Name" /></div>
+              <div class="col"><input type="text" class="form-control" placeholder="Surname" /></div>
+            </div>
+            <input type="email" class="form-control mb-3" placeholder="Email Address" />
+            <input type="password" class="form-control mb-3" placeholder="Password" />
+            <button class="btn btn-light btn-pill w-100 mb-3">Create Account</button>
+            <div class="or-divider text-center my-3"><hr class="flex-grow-1 me-2"><span>or</span><hr class="flex-grow-1 ms-2"></div>
+            <button class="btn btn-outline-light social-btn mb-2 w-100"><img src="https://www.svgrepo.com/show/475656/google-color.svg" width="20"> Continue with Google</button>
+            <button class="btn btn-outline-light social-btn w-100"><img src="Images/apple icon.png" width="20"> Continue with Apple</button>
+            <p class="form-footer mt-3" style="color: #D99C2B;">Already a member? <a href="#">Log in</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+ <!-- Footer --> 
+<footer class="bg-gold text-purple text-center mt-auto">
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-3 px-4 py-4">
+        <img src="Images/Logo 2.png" class="logo-img" alt="Logo" />
+      </div>
+      <div class="col-md-3 px-4 py-4">
+        <h5>Scholarlyspace College 2025</h5>
+        <p>Phone: +356 2299 1234</p>
+        <p>Email: info@scholarlyspace.edu.mt</p>
+      </div>
+      <div class="col-md-3 px-4 py-4">
+        <h5>About Us</h5>
+        <p>Scholarlyspace College is a Malta-based study hub helping students connect, learn, and succeed.</p>
+      </div>
+      <div class="col-md-3 px-4 py-4">
+        <a href="#"><img src="Images/facebook.svg" class="icon-img" alt="Facebook" /></a>
+        <a href="#"><img src="Images/instagram.svg" class="icon-img" alt="Instagram" /></a>
+        <a href="#"><img src="Images/linkedin.svg" class="icon-img" alt="LinkedIn" /></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

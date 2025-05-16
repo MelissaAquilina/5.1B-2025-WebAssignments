@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Group Chat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-expand-lg bg-gold">
+      <div class="container-fluid">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+  
+        <a class="navbar-brand mx-auto" href="homepage.html">
+          <img src="Images/Logo 2.png" class="logo-img" alt="Logo" />
+        </a>
+  
+        <a class="navbar-brand" href="login&signup.html">
+          <img src="Images/user-solid.svg" class="profile-img" alt="Profile" />
+        </a>
+      </div>
+    </nav>
+  
+    <!-- Secondary Menu -->
+<nav class="navbar navbar-expand-lg bg-purple">
+  <div class="container-fluid justify-content-center">
+    <div class="collapse navbar-collapse justify-content-center">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="subject.html">Subject</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="quizzes&Test.html">Quizzes & Tests</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="student-dashboard.html">Student Dashboard</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="study-group.html">Study Group</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="contact-support.html">Contact & Support</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="profile.html">Profile</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+    <div class="py-3"></div>
+
+<!-- Chat Container -->
+<div class="chat-box container py-4">
+
+  <!-- Received message -->
+  <div class="d-flex align-items-start mb-3">
+    <img src="images/people-collage-design 2.png" alt="Melly" class="chat-pic me-2">
+    <div class="chat-bubble received">Hey! Are you ready for the test?</div>
+  </div>
+
+  <!-- Received message -->
+  <div class="d-flex align-items-start mb-3">
+    <img src="images/people-collage-design 3.png" alt="Kelly" class="chat-pic me-2">
+    <div class="chat-bubble received">Let’s revise together!</div>
+  </div>
+
+  <!-- Sent message -->
+  <div class="d-flex align-items-start justify-content-end mb-3">
+    <div class="chat-bubble sent me-2">Sure, starting now!</div>
+    <img src="images/people-collage-design 4.png" alt="Sara" class="chat-pic">
+  </div>
+
+  <!-- Sent message -->
+  <div class="d-flex align-items-start justify-content-end mb-3">
+    <div class="chat-bubble sent me-2">Opening the topic on algebra.</div>
+    <img src="images/people-collage-design 7.png" alt="Jean" class="chat-pic">
+  </div>
+
+ <!-- Message input row inside the chat box -->
+<div class="chat-input d-flex align-items-center mt-4 p-2 rounded">
+  <i class="fas fa-paperclip me-2"></i>
+  <input type="text" class="form-control me-2" placeholder="Type a message...">
+  <i class="fas fa-microphone me-2"></i>
+  <button class="btn btn-light"><i class="fas fa-paper-plane"></i></button>
+</div>
+</div>
+
+<div class="py-3"></div>
+
+
+
+
+
+<!-- Footer reused from homepage -->
+<footer class="bg-gold text-purple text-center mt-auto">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-3 border-end px-4 py-4"><img src="Images/Logo 2.png" class="logo-img" alt="Logo" /></div>
+        <div class="col-md-3 border-end px-4 py-4">
+          <h5>Scholarlyspace College 2025</h5>
+          <p>Phone: +356 2299 1234</p>
+          <p>Email: info@scholarlyspace.edu.mt</p>
+        </div>
+        <div class="col-md-3 border-end px-4 py-4">
+          <h5>About Us</h5>
+          <p>Scholarlyspace College is a Malta-based study hub helping students connect, learn, and succeed.</p>
+        </div>
+        <div class="col-md-3 px-4 py-4">
+          <a href="#"><img src="Images/facebook.svg" class="icon-img" alt="Facebook" /></a>
+          <a href="#"><img src="Images/instagram.svg" class="icon-img" alt="Instagram" /></a>
+          <a href="#"><img src="Images/linkedin.svg" class="icon-img" alt="LinkedIn" /></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  
+  </body>
+</html>

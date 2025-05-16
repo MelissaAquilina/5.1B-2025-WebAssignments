@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Top Navbar -->
+  <nav class="navbar navbar-expand-lg bg-gold">
+    <div class="container-fluid">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+      <a class="navbar-brand mx-auto" href="homepage.html">
+        <img src="Images/Logo 2.png" class="logo-img" alt="Logo" />
+      </a>
+
+      <a class="navbar-brand" href="login&signup.html">
+        <img src="Images/user-solid.svg" class="profile-img" alt="Profile" />
+      </a>
+    </div>
+  </nav>
+
+  <!-- Secondary Menu -->
+  <nav class="navbar navbar-expand-lg bg-purple">
+    <div class="container-fluid justify-content-center">
+      <div class="collapse navbar-collapse justify-content-center">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item mx-3">
+            <a class="nav-link px-4" href="subject.html">Subject</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link px-4" href="quizzes&test.html">Quizzes & Tests</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link px-4" href="student-dashboard.html">Student Dashboard</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link px-4" href="study-group.html">Study Group</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link px-4" href="contact-support.html">Contact & Support</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link px-4" href="profile.html">Profile</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <!-- Contact & Support Section -->
+<div class="container my-5">
+  <h2 class="contact-tab text-start px-3 py-1 rounded-end">Contact & Support</h2>
+
+  <div class="p-5 contact-box text-white text-center">
+    <h3 class="mb-4">Contact Form</h3>
+
+    <form>
+      <div class="row align-items-center mb-3">
+        <div class="col-md-2 text-md-end mb-2 mb-md-0">
+          <span class="badge rounded-pill bg-gold px-3 py-2 text-dark">First Name</span>
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-control contact-input" value="Melissa" />
+        </div>
+
+        <div class="col-md-2 text-md-end mb-2 mb-md-0">
+          <span class="badge rounded-pill bg-gold px-3 py-2 text-dark">Last Name</span>
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-control contact-input" value="Aquilina" />
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-3">
+        <div class="col-md-2 text-md-end mb-2 mb-md-0">
+          <span class="badge rounded-pill bg-gold px-3 py-2 text-dark">Email</span>
+        </div>
+        <div class="col-md-10">
+          <input type="email" class="form-control contact-input" value="melissa....@gmail.com" />
+        </div>
+      </div>
+
+      <div class="row align-items-start mb-4">
+        <div class="col-md-2 text-md-end mb-2 mb-md-0">
+          <span class="badge rounded-pill bg-gold px-3 py-2 text-dark">Message</span>
+        </div>
+        <div class="col-md-10">
+          <textarea class="form-control contact-input" rows="5" placeholder="Write your message here"></textarea>
+        </div>
+      </div>
+
+      <button type="submit" class="btn bg-gold text-dark px-4 rounded-pill fw-bold">Submit</button>
+    </form>
+  </div>
+</div>
+
+ <!-- Footer --> 
+<footer class="bg-gold text-purple text-center mt-auto">
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-3 px-4 py-4">
+        <img src="Images/Logo 2.png" class="logo-img" alt="Logo" />
+      </div>
+      <div class="col-md-3 px-4 py-4">
+        <h5>Scholarlyspace College 2025</h5>
+        <p>Phone: +356 2299 1234</p>
+        <p>Email: info@scholarlyspace.edu.mt</p>
+      </div>
+      <div class="col-md-3 px-4 py-4">
+        <h5>About Us</h5>
+        <p>Scholarlyspace College is a Malta-based study hub helping students connect, learn, and succeed.</p>
+      </div>
+      <div class="col-md-3 px-4 py-4">
+        <a href="#"><img src="Images/facebook.svg" class="icon-img" alt="Facebook" /></a>
+        <a href="#"><img src="Images/instagram.svg" class="icon-img" alt="Instagram" /></a>
+        <a href="#"><img src="Images/linkedin.svg" class="icon-img" alt="LinkedIn" /></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</body>
+</html>

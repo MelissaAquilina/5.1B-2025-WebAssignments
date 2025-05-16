@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Top Navbar -->
+  <nav class="navbar navbar-expand-lg bg-gold">
+    <div class="container-fluid">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+      <a class="navbar-brand mx-auto" href="homepage.html">
+        <img src="Images/Logo 2.png" class="logo-img" alt="Logo" />
+      </a>
+
+      <a class="navbar-brand" href="login&signup.html">
+        <img src="Images/user-solid.svg" class="profile-img" alt="Profile" />
+      </a>
+    </div>
+  </nav>
+
+    <!-- Secondary Menu -->
+<nav class="navbar navbar-expand-lg bg-purple">
+  <div class="container-fluid justify-content-center">
+    <div class="collapse navbar-collapse justify-content-center">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="subject.html">Subject</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="quizzes&Test.html">Quizzes & Tests</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="student-dashboard.html">Student Dashboard</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="study-group.html">Study Group</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="contact-support.html">Contact & Support</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link px-4" href="profile.html">Profile</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ <!-- Page Heading -->
+  <div class="bg-warning text-white text-center py-2 mt-3 rounded mx-auto w-50">
+    <h3>Progress Tracker</h3>
+  </div>
+
+  <!-- Progress Table -->
+  <div class="container my-4">
+    <div class="table-responsive">
+      <table class="table table-bordered text-white table-striped" style="background-color: #3c0078;">
+        <thead class="text-center" style="background-color: #4e008e;">
+          <tr>
+            <th>Subject</th>
+            <th>Deadline</th>
+            <th>Progress Status</th>
+            <th>Done</th>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <tr>
+            <td>Lorem</td>
+            <td><input type="date" class="form-control bg-warning border-0 text-center"></td>
+            <td>
+              <select class="form-select">
+                <option selected>Please select progress status</option>
+                <option>Not Started</option>
+                <option>In Progress</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td><input class="form-check-input" type="checkbox"></td>
+          </tr>
+          <tr>
+            <td>Lorem</td>
+            <td><input type="date" class="form-control bg-warning border-0 text-center"></td>
+            <td>
+              <select class="form-select">
+                <option selected>Please select progress status</option>
+                <option>Not Started</option>
+                <option>In Progress</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td><input class="form-check-input" type="checkbox"></td>
+          </tr><tr>
+            <td>Lorem</td>
+            <td><input type="date" class="form-control bg-warning border-0 text-center"></td>
+            <td>
+              <select class="form-select">
+                <option selected>Please select progress status</option>
+                <option>Not Started</option>
+                <option>In Progress</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td><input class="form-check-input" type="checkbox"></td>
+          </tr><tr>
+            <td>Lorem</td>
+            <td><input type="date" class="form-control bg-warning border-0 text-center"></td>
+            <td>
+              <select class="form-select">
+                <option selected>Please select progress status</option>
+                <option>Not Started</option>
+                <option>In Progress</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td><input class="form-check-input" type="checkbox"></td>
+          </tr><tr>
+            <td>Lorem</td>
+            <td><input type="date" class="form-control bg-warning border-0 text-center"></td>
+            <td>
+              <select class="form-select">
+                <option selected>Please select progress status</option>
+                <option>Not Started</option>
+                <option>In Progress</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td><input class="form-check-input" type="checkbox"></td>
+          </tr><tr>
+            <td>Lorem</td>
+            <td><input type="date" class="form-control bg-warning border-0 text-center"></td>
+            <td>
+              <select class="form-select">
+                <option selected>Please select progress status</option>
+                <option>Not Started</option>
+                <option>In Progress</option>
+                <option>Completed</option>
+              </select>
+            </td>
+            <td><input class="form-check-input" type="checkbox"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Footer --> 
+<footer class="bg-gold text-purple text-center mt-auto">
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-3 px-4 py-4">
+        <img src="Images/Logo 2.png" class="logo-img" alt="Logo" />
+      </div>
+      <div class="col-md-3 px-4 py-4">
+        <h5>Scholarlyspace College 2025</h5>
+        <p>Phone: +356 2299 1234</p>
+        <p>Email: info@scholarlyspace.edu.mt</p>
+      </div>
+      <div class="col-md-3 px-4 py-4">
+        <h5>About Us</h5>
+        <p>Scholarlyspace College is a Malta-based study hub helping students connect, learn, and succeed.</p>
+      </div>
+      <div class="col-md-3 px-4 py-4">
+        <a href="#"><img src="Images/facebook.svg" class="icon-img" alt="Facebook" /></a>
+        <a href="#"><img src="Images/instagram.svg" class="icon-img" alt="Instagram" /></a>
+        <a href="#"><img src="Images/linkedin.svg" class="icon-img" alt="LinkedIn" /></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</body>
+</html>
