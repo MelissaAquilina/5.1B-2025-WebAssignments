@@ -2,3 +2,4 @@
 Task 1: Research Document
 Task 2: Med-Fi Wireframes (Figma)
 Task 2: Planning Document 
+Task 3: Srudy College Hub HTML and CSS and Images
